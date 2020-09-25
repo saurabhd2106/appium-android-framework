@@ -7,7 +7,9 @@
         <methods>
           <include name="setup"/>
           <include name="preSetup"/>
+          <include name="postTestActions"/>
           <include name="verifyApplicationLaunch"/>
+          <include name="postCleanup"/>
           <include name="ceanUp"/>
         </methods>
       </class> <!-- com.mmt.tests.MMTHomepageTests -->

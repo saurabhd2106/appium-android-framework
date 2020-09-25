@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="27709" started-at="2020-09-25T12:46:43 IST" finished-at="2020-09-25T12:47:11 IST">
+  <suite name="Default suite" duration-ms="29029" started-at="2020-09-25T14:00:55 IST" finished-at="2020-09-25T14:01:24 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="27709" started-at="2020-09-25T12:46:43 IST" finished-at="2020-09-25T12:47:11 IST">
+    <test name="Default test" duration-ms="29029" started-at="2020-09-25T14:00:55 IST" finished-at="2020-09-25T14:01:24 IST">
       <class name="com.mmt.tests.MMTHomepageTests">
-        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.mmt.tests.MMTHomepageTests@4d41cee]" name="preSetup" is-config="true" duration-ms="12" started-at="2020-09-25T12:46:43 IST" finished-at="2020-09-25T12:46:43 IST">
+        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.mmt.tests.MMTHomepageTests@536aaa8d]" name="preSetup" is-config="true" duration-ms="178" started-at="2020-09-25T14:00:55 IST" finished-at="2020-09-25T14:00:55 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preSetup -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.mmt.tests.MMTHomepageTests@4d41cee]" name="setup" is-config="true" duration-ms="15049" started-at="2020-09-25T12:46:43 IST" finished-at="2020-09-25T12:46:58 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mmt.tests.MMTHomepageTests@536aaa8d]" name="setup" is-config="true" duration-ms="15408" started-at="2020-09-25T14:00:55 IST" finished-at="2020-09-25T14:01:11 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="verifyApplicationLaunch()[pri:0, instance:com.mmt.tests.MMTHomepageTests@4d41cee]" name="verifyApplicationLaunch" duration-ms="12033" started-at="2020-09-25T12:46:58 IST" finished-at="2020-09-25T12:47:10 IST">
+        <test-method status="FAIL" signature="verifyApplicationLaunch()[pri:0, instance:com.mmt.tests.MMTHomepageTests@536aaa8d]" name="verifyApplicationLaunch" duration-ms="12254" started-at="2020-09-25T14:01:11 IST" finished-at="2020-09-25T14:01:23 IST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [com.mmt.travel.app.home.ui.SplashActivity] but found [com.mmt.travel.app.hotel.activity.HotelLandingActivity]]]>
@@ -27,7 +27,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:136)
 at org.testng.Assert.assertEquals(Assert.java:118)
 at org.testng.Assert.assertEquals(Assert.java:575)
 at org.testng.Assert.assertEquals(Assert.java:585)
-at com.mmt.tests.MMTHomepageTests.verifyApplicationLaunch(MMTHomepageTests.java:27)
+at com.mmt.tests.MMTHomepageTests.verifyApplicationLaunch(MMTHomepageTests.java:33)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -62,10 +62,25 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyApplicationLaunch -->
-        <test-method status="PASS" signature="ceanUp()[pri:0, instance:com.mmt.tests.MMTHomepageTests@4d41cee]" name="ceanUp" is-config="true" duration-ms="590" started-at="2020-09-25T12:47:10 IST" finished-at="2020-09-25T12:47:11 IST">
+        <test-method status="PASS" signature="postTestActions(org.testng.ITestResult)[pri:0, instance:com.mmt.tests.MMTHomepageTests@536aaa8d]" name="postTestActions" is-config="true" duration-ms="726" started-at="2020-09-25T14:01:23 IST" finished-at="2020-09-25T14:01:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyApplicationLaunch status=FAILURE method=MMTHomepageTests.verifyApplicationLaunch()[pri:0, instance:com.mmt.tests.MMTHomepageTests@536aaa8d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postTestActions -->
+        <test-method status="PASS" signature="ceanUp()[pri:0, instance:com.mmt.tests.MMTHomepageTests@536aaa8d]" name="ceanUp" is-config="true" duration-ms="603" started-at="2020-09-25T14:01:24 IST" finished-at="2020-09-25T14:01:24 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ceanUp -->
+        <test-method status="PASS" signature="postCleanup()[pri:0, instance:com.mmt.tests.MMTHomepageTests@536aaa8d]" name="postCleanup" is-config="true" duration-ms="466" started-at="2020-09-25T14:01:24 IST" finished-at="2020-09-25T14:01:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCleanup -->
       </class> <!-- com.mmt.tests.MMTHomepageTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

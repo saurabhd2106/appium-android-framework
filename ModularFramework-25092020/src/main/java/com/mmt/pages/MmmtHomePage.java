@@ -20,14 +20,15 @@ public class MmmtHomePage extends BasePage {
 	WebElement cityTextview;
 
 	public MmmtHomePage(AndroidDriver<WebElement> driver) {
-	
+		super(driver);
+		
 		PageFactory.initElements(new AppiumFieldDecorator(driver), this);
 		
 	}
 
 	public void searchHotel() {
 
-		elementControl.clickElement(hotelButton);
+		touchControl.tap(hotelButton);
 		
 		elementControl.clickElement(cityTextview);
 
