@@ -6,6 +6,7 @@
       <class name="com.mmt.tests.MMTHomepageTests">
         <methods>
           <include name="setup"/>
+          <include name="preSetup"/>
           <include name="verifyApplicationLaunch"/>
           <include name="ceanUp"/>
         </methods>
